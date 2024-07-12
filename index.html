@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Partner Network</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#advertiser">Advertiser Registration</a></li>
+            <li><a href="#partner">Partner Registration</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="advertiser">
+            <h2>Advertiser Registration</h2>
+            <form id="advertiserForm">
+                <label for="advName">Name:</label>
+                <input type="text" id="advName" name="advName" required>
+                
+                <label for="advEmail">Email:</label>
+                <input type="email" id="advEmail" name="advEmail" required>
+                
+                <label for="advCompany">Company:</label>
+                <input type="text" id="advCompany" name="advCompany" required>
+                
+                <label for="advWebsite">Website:</label>
+                <input type="url" id="advWebsite" name="advWebsite" required>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="partner">
+            <h2>Partner Registration</h2>
+            <form id="partnerForm">
+                <label for="partName">Name:</label>
+                <input type="text" id="partName" name="partName" required>
+                
+                <label for="partEmail">Email:</label>
+                <input type="email" id="partEmail" name="partEmail" required>
+                
+                <label for="partWebsite">Website:</label>
+                <input type="url" id="partWebsite" name="partWebsite" required>
+                
+                <label for="partTrafficSource">Traffic Source:</label>
+                <input type="text" id="partTrafficSource" name="partTrafficSource" required>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Partner Network. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
